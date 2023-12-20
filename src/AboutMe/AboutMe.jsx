@@ -55,6 +55,7 @@ const textStyle = {
   textAlign: 'left',
   lineHeight: '2', // Adjust the value for double spacing
   fontFamily: 'monospace',
+  fontSize: '16px'
 };
 
 const tabStyle = {
