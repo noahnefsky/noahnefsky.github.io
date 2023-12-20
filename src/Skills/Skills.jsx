@@ -23,7 +23,7 @@ const Skills = () => {
             <div container className={classes.background}>
                 <div style={{ marginBottom: '20px' }}>
                     <Stack direction={mobile ? 'column' : "row"} spacing={mobile ? 2 : 5}>
-                        <Card variant="outlined" className={classes.cardContainer} style={{height: mobile ? "auto" : '90px', width: mobile ? "auto" : '250px'}}>
+                        <Card variant="outlined" className={classes.cardContainer} style={{height: mobile ? "auto" : '90px', width: mobile ? "auto" : '265px'}}>
                             <CardContent>
                                 <GoGear className={classes.icon} />
                                 <Typography className={classes.header} gutterBottom>
@@ -51,7 +51,7 @@ const Skills = () => {
 
                 <div style={{ marginBottom: '20px' }}>
                     <Stack direction={mobile ? 'column' : "row"} spacing={mobile ? 2 : 5}>
-                        <Card variant="outlined" className={classes.cardContainer} style={{height: mobile ? "auto" : '90px', width: mobile ? "auto" : '250px'}}>
+                        <Card variant="outlined" className={classes.cardContainer} style={{height: mobile ? "auto" : '90px', width: mobile ? "auto" : '265px'}}>
                             <CardContent>
                                 <AiOutlineAntDesign className={classes.icon} />
                                 <Typography className={classes.header} gutterBottom>
@@ -78,7 +78,7 @@ const Skills = () => {
 
                 <div >
                     <Stack direction={mobile ? 'column' : "row"} spacing={mobile ? 2 : 5}>
-                        <Card variant="outlined" className={classes.cardContainer} style={{height: mobile ? "auto" : '90px', width: mobile ? "auto" : '250px'}}>
+                        <Card variant="outlined" className={classes.cardContainer} style={{height: mobile ? "auto" : '90px', width: mobile ? "auto" : '265px'}}>
                             <CardContent>
                                 <FaDatabase className={classes.icon} />
                                 <Typography className={classes.header} gutterBottom>
