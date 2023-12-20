@@ -30,7 +30,7 @@ const AboutMe = () => {
   return (
     <center>
       <div style={containerStyle}>
-        <Typography style={{ ...textStyle, width: desktop ? '50%' : '80%' }}>
+        <Typography style={{ ...textStyle, width: desktop ? '50%' : '80%', fontSize: desktop ? 16 : null }}>
           {"{"}
           <br />
           {renderEducationInfo()}
@@ -55,7 +55,6 @@ const textStyle = {
   textAlign: 'left',
   lineHeight: '2', // Adjust the value for double spacing
   fontFamily: 'monospace',
-  fontSize: '16px'
 };
 
 const tabStyle = {
