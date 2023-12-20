@@ -6,8 +6,6 @@ import ProjectsCardStyles from './ProjectsCardsStyles';
 
 const Projects = () => {
     const desktop = useMediaQuery('(min-width: 960px)');
-    const source = "https://github.com/noahnefsky/Preesh-Rewards";
-    const website = null;
     const classes2 = ProjectsCardStyles();
 
     const [link, setLink] = React.useState('linkTextBlack');
@@ -47,15 +45,10 @@ const Projects = () => {
                                 <CardContent className={classes2.cardContent}>
                                     <div className={classes2.linkContainer}>
                                         <div className={classes2.linkSpacing}>
-                                            {source && (
-                                                <a rel="noreferrer" target="_blank" href={source} style={{ textDecoration: "none" }}>
+                                            {card.source && (
+                                                <a rel="noreferrer" target="_blank" href={card.source} style={{ textDecoration: "none" }}>
                                                     <Typography className={classes2[link]} display="inline">See Source Code&nbsp;</Typography>
                                                 </a>
-                                            )}
-                                            {(source && website) && (
-                                                <>
-                                                    <Typography style={{ fontSize: "0.85rem" }} display="inline">|&nbsp;</Typography>
-                                                </>
                                             )}
                                         </div>
                                     </div>
