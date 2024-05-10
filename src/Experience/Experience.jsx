@@ -24,9 +24,14 @@ const Experience = () => {
         and a Windows desktop application to authenticate and automatically update local
         accounting info.`;
 
+    const squintTitle = "Software Engineer Intern | Squint AI, San Jose";
+    const squintSummary = `I will be working full-stack on a Flutter mobile application,
+    as well as augmented reality flows using AI and computer vision.`;
+
 
     return (
         <Stack direction="column" spacing={0} justifyItems='center' justifyContent={'center'} alignItems={'center'} style={{ marginTop: '2vh', marginBottom: '35px' }}>
+            <ExperienceButton title={squintTitle} summary={squintSummary} />
             <ExperienceButton title={pccTitle} summary={pccSummary} />
             <ExperienceButton title={gmTitle} summary={gmSummary} />
             <ExperienceButton title={twTitle} summary={twSummary} />
