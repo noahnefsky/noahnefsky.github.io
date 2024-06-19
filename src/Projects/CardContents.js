@@ -2,6 +2,7 @@ import Marks from "./Gifs/mark-management.gif";
 import Stickies from "./Gifs/stickies++.gif";
 import Preesh from "./Gifs/preesh.gif";
 import Battleship from "./Gifs/battleship.gif";
+import EuropeTourism from "./Gifs/europeTourism.gif";
 
 export const cardContents = [
 	{
@@ -15,6 +16,12 @@ export const cardContents = [
 		title: "Stickies++",
 		details: "A notes application like Stickies, but with the workflow and customization capabilities of Apple Notes.",
 		source: "https://github.com/noahnefsky/Note-Taking-App",
+	},
+	{
+		header: EuropeTourism,
+		title: "Visualizing Europe Tourism",
+		details: "A website with 2 types of data maps visualizing international travel to Europe each month.",
+		source: "https://github.com/noahnefsky/EuropeTourism",
 	},
 	{
 		header: Battleship,
