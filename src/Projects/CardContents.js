@@ -8,19 +8,19 @@ export const cardContents = [
 	{
 		header: Preesh,
 		title: "Preesh Rewards",
-		details: "A mobile rewards application for tracking and utilizing points earned.",
+		details: "Designed and implemented a mobile rewards application allowing users to track and redeem points earned",
 		source: "https://github.com/noahnefsky/Preesh-Rewards",
 	},
 	{
 		header: Stickies,
 		title: "Stickies++",
-		details: "A notes application like Stickies, but with the workflow and customization capabilities of Apple Notes.",
+		details: "Developed a notes application to maximize customization and note-taking efficiency",
 		source: "https://github.com/noahnefsky/Note-Taking-App",
 	},
 	{
 		header: EuropeTourism,
 		title: "Visualizing Europe Tourism",
-		details: "A website with 2 types of data maps visualizing international travel to Europe each month.",
+		details: "Created an interactive data map with a slider and a star plot to visualize monthly tourist activity",
 		source: "https://github.com/noahnefsky/EuropeTourism",
 	},
 	{
@@ -32,8 +32,8 @@ export const cardContents = [
 	{
 		header: Marks,
 		title: "Mark Management Application",
-		details: "A desktop application allowing users to input grades, sort them and see statistics about them.",
+		details: "Built program loading, process synchronization and a file management system into an operating system",
 		source: "https://github.com/noahnefsky/Mark-Management-App",
 	},
 ];
- export default cardContents;
+export default cardContents;

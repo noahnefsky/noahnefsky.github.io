@@ -1,7 +1,7 @@
 import { Card, CardContent, Typography, useMediaQuery } from '@material-ui/core';
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
-import { AndroidOriginal, BootstrapOriginal, CplusplusOriginal, DartOriginal, DjangoPlain, FirebasePlain, FlutterOriginal, Html5Original, JavaOriginal, JavascriptOriginal, KotlinPlain, LinuxOriginal, PythonOriginal, ReactOriginal, SequelizeOriginal, SpringOriginal, TypescriptOriginal, VuejsOriginal, PytorchOriginal, NumpyOriginal, OpencvOriginal, NextjsOriginal } from 'devicons-react';
+import { AndroidOriginal, BootstrapOriginal, CplusplusOriginal, DartOriginal, DjangoPlain, ReduxOriginal, FirebasePlain, FlutterOriginal, JavaOriginal, JavascriptOriginal, KotlinPlain, LinuxOriginal, PythonOriginal, ReactOriginal, SequelizeOriginal, SpringOriginal, TypescriptOriginal, VuejsOriginal, PytorchOriginal, NumpyOriginal, OpencvOriginal, NextjsOriginal, NodejsOriginal } from 'devicons-react';
 import React from 'react';
 import { AiOutlineAntDesign } from 'react-icons/ai';
 import { FaDatabase } from 'react-icons/fa';
@@ -68,7 +68,7 @@ const Skills = () => {
                                 </Stack>
                                 <Stack direction={mobile ? 'column' : "row"} spacing={3}>
                                     <Chip className={classes.chipFont} icon={<AndroidOriginal />} label="Android" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<Html5Original />} label="HTML/CSS" variant="outlined" />
+                                    <Chip className={classes.chipFont} icon={<ReduxOriginal />} label="Redux" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<VuejsOriginal />} label="Vue.js" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<BootstrapOriginal />} label="Bootstrap" variant="outlined" />
                                 </Stack>
@@ -92,11 +92,11 @@ const Skills = () => {
                                     <Chip className={classes.chipFont} icon={<FirebasePlain />} label="Firebase" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<SpringOriginal />} label="Spring Boot" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<DjangoPlain />} label="Django" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<PytorchOriginal />} label="PyTorch" variant="outlined" />
+                                    <Chip className={classes.chipFont} icon={<NodejsOriginal />} label="Node.js" variant="outlined" />
                                 </Stack>
                                 <Stack direction={mobile ? 'column' : "row"} spacing={3}>
+                                    <Chip className={classes.chipFont} icon={<PytorchOriginal />} label="PyTorch" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<NumpyOriginal />} label="Numpy" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<OpencvOriginal />} label="OpenCV" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<GiBreakingChain />} label="Langchain" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<LinuxOriginal />} label="Linux" variant="outlined" />
                                 </Stack>
