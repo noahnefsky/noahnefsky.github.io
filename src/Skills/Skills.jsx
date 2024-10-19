@@ -1,7 +1,7 @@
 import { Card, CardContent, Typography, useMediaQuery } from '@material-ui/core';
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
-import { AndroidOriginal, BootstrapOriginal, CplusplusOriginal, DartOriginal, DjangoPlain, ReduxOriginal, FirebasePlain, FlutterOriginal, JavaOriginal, JavascriptOriginal, KotlinPlain, LinuxOriginal, PythonOriginal, ReactOriginal, SequelizeOriginal, SpringOriginal, TypescriptOriginal, VuejsOriginal, PytorchOriginal, NumpyOriginal, OpencvOriginal, NextjsOriginal, NodejsOriginal } from 'devicons-react';
+import { AndroidOriginal, BootstrapOriginal, CplusplusOriginal, DartOriginal, DjangoPlain, ReduxOriginal, FirebasePlain, FlutterOriginal, JavaOriginal, JavascriptOriginal, KotlinPlain, LinuxOriginal, PythonOriginal, ReactOriginal, SequelizeOriginal, SpringOriginal, TypescriptOriginal, VuejsOriginal, PytorchOriginal, NumpyOriginal, NextjsOriginal, NodejsOriginal } from 'devicons-react';
 import React from 'react';
 import { AiOutlineAntDesign } from 'react-icons/ai';
 import { FaDatabase } from 'react-icons/fa';
