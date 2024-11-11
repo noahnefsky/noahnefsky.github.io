@@ -8,7 +8,7 @@ const Experience = () => {
     const pccTitle = "Software Engineer Co-op | PointClickCare, Mississauga";
     const pccSummary = `I was a part of a mobile development team and worked on a
         Flutter secure messaging application, an Android nursing application
-        and placed highly in an AI-focused hackathon.`;
+        and placed highly in an AI hackathon.`;
 
     const gmTitle = "Junior Software Developer | GrantMatch, Oakville";
     const gmSummary = `I worked on their web application built in Vue.js and Django,
@@ -24,9 +24,10 @@ const Experience = () => {
         and a Windows desktop application to authenticate and automatically update local
         accounting info.`;
 
-    const squintTitle = "Software Engineer Intern | Squint AI, San Jose";
-    const squintSummary = `I am working full-stack on a small team to build a React-Node.js web
-    application to manage factory procedures and allow users to customize access controls.`;
+    const squintTitle = "Software Engineer Intern | Squint AI, San Francisco";
+    const squintSummary = `I am working full-stack on a web application to manage factory procedures,
+    documents and allow users to customize role-based access controls. I have also gotten to do some
+    AI work related to document analysis.`;
 
 
     return (

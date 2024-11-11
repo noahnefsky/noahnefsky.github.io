@@ -1,12 +1,13 @@
 import { Card, CardContent, Typography, useMediaQuery } from '@material-ui/core';
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
-import { AndroidOriginal, BootstrapOriginal, CplusplusOriginal, DartOriginal, DjangoPlain, ReduxOriginal, FirebasePlain, FlutterOriginal, JavaOriginal, JavascriptOriginal, KotlinPlain, LinuxOriginal, PythonOriginal, ReactOriginal, SequelizeOriginal, SpringOriginal, TypescriptOriginal, VuejsOriginal, PytorchOriginal, NumpyOriginal, NextjsOriginal, NodejsOriginal } from 'devicons-react';
+import { BootstrapOriginal, CplusplusOriginal, DartOriginal, DjangoPlain, ReduxOriginal, FirebasePlain, FlutterOriginal, JavaOriginal, JavascriptOriginal, KotlinPlain, PythonOriginal, ReactOriginal, SequelizeOriginal, SpringOriginal, TypescriptOriginal, VuejsOriginal, PytorchOriginal, NumpyOriginal, NextjsOriginal, NodejsOriginal, AndroidOriginal } from 'devicons-react';
 import React from 'react';
 import { AiOutlineAntDesign } from 'react-icons/ai';
 import { FaDatabase } from 'react-icons/fa';
 import { GiBreakingChain } from "react-icons/gi";
 import { GoGear } from 'react-icons/go';
+import { PiFileSql } from "react-icons/pi";
 import { useStyles } from '../Skills/SkillsStyles';
 
 
@@ -33,16 +34,16 @@ const Skills = () => {
                             </Card>
                             <Stack direction={mobile ? 'row' : "column"} spacing={1} justifyContent={'center'}>
                                 <Stack direction={mobile ? 'column' : "row"} spacing={3} sx={{ marginBottom: '10px' }}>
+                                    <Chip className={classes.chipFont} icon={<TypescriptOriginal />} label="Typescript" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<PythonOriginal />} label="Python" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<CplusplusOriginal />} label="C++" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<JavascriptOriginal />} label="Javascript" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<KotlinPlain />} label="Kotlin" variant="outlined" />
                                 </Stack>
                                 <Stack direction={mobile ? 'column' : "row"} spacing={3}>
                                     <Chip className={classes.chipFont} icon={<SequelizeOriginal />} label="SQL" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<DartOriginal />} label="Dart" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<JavaOriginal />} label="Java" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<TypescriptOriginal />} label="Typescript" variant="outlined" />
+                                    <Chip className={classes.chipFont} icon={<JavascriptOriginal />} label="Javascript" variant="outlined" />
                                 </Stack>
                             </Stack>
                         </Stack>
@@ -89,16 +90,16 @@ const Skills = () => {
                             </Card>
                             <Stack direction={mobile ? 'row' : "column"} spacing={1} justifyContent={'center'}>
                                 <Stack direction={mobile ? 'column' : "row"} spacing={3} sx={{ marginBottom: '10px' }}>
+                                    <Chip className={classes.chipFont} icon={<NodejsOriginal />} label="Node.js" variant="outlined" />
+                                    <Chip className={classes.chipFont} icon={<PiFileSql />} label="SQL" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<FirebasePlain />} label="Firebase" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<SpringOriginal />} label="Spring Boot" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<DjangoPlain />} label="Django" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<NodejsOriginal />} label="Node.js" variant="outlined" />
                                 </Stack>
                                 <Stack direction={mobile ? 'column' : "row"} spacing={3}>
+                                    <Chip className={classes.chipFont} icon={<DjangoPlain />} label="Django" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<PytorchOriginal />} label="PyTorch" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<NumpyOriginal />} label="Numpy" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<GiBreakingChain />} label="Langchain" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<LinuxOriginal />} label="Linux" variant="outlined" />
                                 </Stack>
                             </Stack>
                         </Stack>

@@ -13,16 +13,16 @@ const AboutMe = () => {
       <b>Graduation Year</b>: 2025 (I have 1 semester left),
       </div>
       <div style={tabStyle}>
-        <b>Minor</b>: Economics
+        <b>Minor</b>: Economics,
       </div>
       <div style={tabStyle}>
-        <b>Passions</b>: ['Software development, AI']
+        <b>Passions</b>: ['Software development, AI'],
       </div>
       <div style={tabStyle}>
-        <b>Sports</b>: ['Baseball, hockey, basketball']
+        <b>Sports</b>: ['Baseball, hockey, basketball'],
       </div>
       <div style={tabStyle}>
-        <b>Other interests</b>: ['Fitness, finance, travelling, food']
+        <b>Other interests</b>: ['Fitness, sports, finance, food']
       </div>
     </>
   );

@@ -8,7 +8,7 @@ export const cardContents = [
 	{
 		header: Preesh,
 		title: "Preesh Rewards",
-		details: "Designed and implemented a mobile rewards application allowing users to track and redeem points earned",
+		details: "Single handedly built a mobile rewards application for tracking and utilizing points earned",
 		source: "https://github.com/noahnefsky/Preesh-Rewards",
 	},
 	{
