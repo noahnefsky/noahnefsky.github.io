@@ -25,9 +25,8 @@ const Experience = () => {
         accounting info.`;
 
     const squintTitle = "Software Engineer Intern | Squint AI, San Francisco";
-    const squintSummary = `I am working full-stack on a web application to manage factory procedures,
-    documents and allow users to customize role-based access controls. I have also gotten to do some
-    AI work related to document analysis.`;
+    const squintSummary = `I worked full-stack to build a procedure management system and role-based access controls.
+        I also conceptualized and prototyped a solution using 3D reconstruction to enable factory workers to train remotely.`;
 
 
     return (
