@@ -45,9 +45,14 @@ const Projects = () => {
                                 <CardContent className={classes2.cardContent}>
                                     <div className={classes2.linkContainer}>
                                         <div className={classes2.linkSpacing}>
+                                            {card.demo_link && (
+                                                <a rel="noreferrer" target="_blank" href={card.demo_link} style={{ textDecoration: "none" }}>
+                                                    <Typography className={classes2[link]} display="inline">Demo Link&nbsp;</Typography>
+                                                </a>
+                                            )}
                                             {card.source && (
                                                 <a rel="noreferrer" target="_blank" href={card.source} style={{ textDecoration: "none" }}>
-                                                    <Typography className={classes2[link]} display="inline">See Source Code&nbsp;</Typography>
+                                                    <Typography className={classes2[link]} display="inline">Source Code&nbsp;</Typography>
                                                 </a>
                                             )}
                                         </div>

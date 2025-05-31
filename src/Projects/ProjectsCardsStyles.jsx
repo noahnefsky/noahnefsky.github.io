@@ -17,7 +17,9 @@ const ProjectsCardStyles = makeStyles((theme) => ({
 		alignItems: "center"
 	},
 	linkSpacing: {
-		display: "inline-block",
+		display: "flex",
+		flexDirection: "column",
+		alignItems: "center",
 		textAlign: "center",
 	},
 	linkTextBlack: {

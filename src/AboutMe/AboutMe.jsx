@@ -7,10 +7,10 @@ const AboutMe = () => {
   const renderEducationInfo = () => (
     <>
       <div style={tabStyle}>
-        <b>Education</b>: Computer Science student at the University of Waterloo,
+        <b>Education</b>: Bachelor's Computer Science at the University of Waterloo,
       </div>
       <div style={tabStyle}>
-      <b>Graduation Year</b>: 2025 (I have 1 semester left),
+      <b>Graduation Year</b>: 2025 (Completed),
       </div>
       <div style={tabStyle}>
         <b>Minor</b>: Economics,

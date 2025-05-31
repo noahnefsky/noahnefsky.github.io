@@ -3,8 +3,16 @@ import Stickies from "./Gifs/stickies++.gif";
 import Preesh from "./Gifs/preesh.gif";
 import Battleship from "./Gifs/battleship.gif";
 import EuropeTourism from "./Gifs/europeTourism.gif";
+import AIAssistant from "./Gifs/clinician_portal.gif"
 
 export const cardContents = [
+	{
+		header: AIAssistant,
+		title: "Ava The AI Assistant",
+		details: "Application which uses AI to improve triage prioritization and patient diagnosis",
+		demo_link: "https://www.loom.com/share/98ccb003beda461195ec8fcfe9bbb045?sid=d64a05a3-b152-4452-9e0a-7f3185726d22",
+		source: "https://github.com/noahnefsky/ai_patient_diagnosis",
+	},
 	{
 		header: Preesh,
 		title: "Preesh Rewards",
