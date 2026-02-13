@@ -1,11 +1,9 @@
 import { Card, CardContent, Typography, useMediaQuery } from '@material-ui/core';
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
-import { BootstrapOriginal, CplusplusOriginal, DartOriginal, DjangoPlain, ReduxOriginal, FirebasePlain, FlutterOriginal, JavaOriginal, JavascriptOriginal, KotlinPlain, PythonOriginal, ReactOriginal, SequelizeOriginal, SpringOriginal, TypescriptOriginal, VuejsOriginal, PytorchOriginal, NumpyOriginal, NextjsOriginal, NodejsOriginal, AndroidOriginal } from 'devicons-react';
+import { CplusplusOriginal, PythonOriginal, ReactOriginal, TypescriptOriginal, PytorchOriginal, NextjsOriginal, NodejsOriginal, FastapiOriginal } from 'devicons-react';
 import React from 'react';
-import { AiOutlineAntDesign } from 'react-icons/ai';
-import { FaDatabase } from 'react-icons/fa';
-import { GiBreakingChain } from "react-icons/gi";
+import { FaAws, FaBrain, FaPlug, FaProjectDiagram, FaRobot, FaSearch, FaServer, FaTools } from 'react-icons/fa';
 import { GoGear } from 'react-icons/go';
 import { PiFileSql } from "react-icons/pi";
 import { useStyles } from '../Skills/SkillsStyles';
@@ -28,22 +26,15 @@ const Skills = () => {
                                 <CardContent>
                                     <GoGear className={classes.icon} />
                                     <Typography className={classes.header} gutterBottom>
-                                        Programming languages:
+                                        Languages:
                                     </Typography>
                                 </CardContent>
                             </Card>
                             <Stack direction={mobile ? 'row' : "column"} spacing={1} justifyContent={'center'}>
                                 <Stack direction={mobile ? 'column' : "row"} spacing={3} sx={{ marginBottom: '10px' }}>
-                                    <Chip className={classes.chipFont} icon={<TypescriptOriginal />} label="Typescript" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<PythonOriginal />} label="Python" variant="outlined" />
+                                    <Chip className={classes.chipFont} icon={<TypescriptOriginal />} label="Typescript" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<CplusplusOriginal />} label="C++" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<KotlinPlain />} label="Kotlin" variant="outlined" />
-                                </Stack>
-                                <Stack direction={mobile ? 'column' : "row"} spacing={3}>
-                                    <Chip className={classes.chipFont} icon={<SequelizeOriginal />} label="SQL" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<DartOriginal />} label="Dart" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<JavaOriginal />} label="Java" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<JavascriptOriginal />} label="Javascript" variant="outlined" />
                                 </Stack>
                             </Stack>
                         </Stack>
@@ -54,52 +45,48 @@ const Skills = () => {
                         <Stack direction={mobile ? 'column' : "row"} spacing={mobile ? 2 : 5}>
                             <Card variant="outlined" className={classes.cardContainer} style={{ height: mobile ? "auto" : '90px', width: mobile ? "auto" : '265px' }}>
                                 <CardContent>
-                                    <AiOutlineAntDesign className={classes.icon} />
+                                    <FaServer className={classes.icon} />
                                     <Typography className={classes.header} gutterBottom>
-                                        Frontend and Mobile:
+                                        Full-stack:
                                     </Typography>
                                 </CardContent>
                             </Card>
                             <Stack direction={mobile ? 'row' : "column"} spacing={1} justifyContent={'center'}>
                                 <Stack direction={mobile ? 'column' : "row"} spacing={3} sx={{ marginBottom: '10px' }}>
                                     <Chip className={classes.chipFont} icon={<ReactOriginal />} label="React" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<ReactOriginal />} label="React Native" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<NextjsOriginal />} label="Nextjs" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<FlutterOriginal />} label="Flutter" variant="outlined" />
+                                    <Chip className={classes.chipFont} icon={<NextjsOriginal />} label="Next.js" variant="outlined" />
+                                    <Chip className={classes.chipFont} icon={<FastapiOriginal />} label="FastAPI" variant="outlined" />
                                 </Stack>
                                 <Stack direction={mobile ? 'column' : "row"} spacing={3}>
-                                    <Chip className={classes.chipFont} icon={<AndroidOriginal />} label="Android" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<ReduxOriginal />} label="Redux" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<VuejsOriginal />} label="Vue.js" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<BootstrapOriginal />} label="Bootstrap" variant="outlined" />
+                                    <Chip className={classes.chipFont} icon={<NodejsOriginal />} label="Node.js" variant="outlined" />
+                                    <Chip className={classes.chipFont} icon={<PiFileSql />} label="SQL" variant="outlined" />
+                                    <Chip className={classes.chipFont} icon={<FaAws />} label="AWS" variant="outlined" />
                                 </Stack>
                             </Stack>
                         </Stack>
                         {mobile ? <br /> : null}
                     </div>
 
-                    <div >
+                    <div>
                         <Stack direction={mobile ? 'column' : "row"} spacing={mobile ? 2 : 5}>
                             <Card variant="outlined" className={classes.cardContainer} style={{ height: mobile ? "auto" : '90px', width: mobile ? "auto" : '265px' }}>
                                 <CardContent>
-                                    <FaDatabase className={classes.icon} />
+                                    <FaBrain className={classes.icon} />
                                     <Typography className={classes.header} gutterBottom>
-                                        Backend and other tools:
+                                        AI:
                                     </Typography>
                                 </CardContent>
                             </Card>
                             <Stack direction={mobile ? 'row' : "column"} spacing={1} justifyContent={'center'}>
                                 <Stack direction={mobile ? 'column' : "row"} spacing={3} sx={{ marginBottom: '10px' }}>
-                                    <Chip className={classes.chipFont} icon={<NodejsOriginal />} label="Node.js" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<PiFileSql />} label="SQL" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<FirebasePlain />} label="Firebase" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<SpringOriginal />} label="Spring Boot" variant="outlined" />
+                                    <Chip className={classes.chipFont} icon={<FaSearch />} label="Information Retrieval" variant="outlined" />
+                                    <Chip className={classes.chipFont} icon={<FaProjectDiagram />} label="LangGraph" variant="outlined" />
+                                    <Chip className={classes.chipFont} icon={<FaRobot />} label="Claude Agent SDK" variant="outlined" />
                                 </Stack>
                                 <Stack direction={mobile ? 'column' : "row"} spacing={3}>
-                                    <Chip className={classes.chipFont} icon={<DjangoPlain />} label="Django" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<PytorchOriginal />} label="PyTorch" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<NumpyOriginal />} label="Numpy" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<GiBreakingChain />} label="Langchain" variant="outlined" />
+                                    <Chip className={classes.chipFont} icon={<FaTools />} label="Langsmith" variant="outlined" />
+                                    <Chip className={classes.chipFont} icon={<FaPlug />} label="MCP" variant="outlined" />
                                 </Stack>
                             </Stack>
                         </Stack>

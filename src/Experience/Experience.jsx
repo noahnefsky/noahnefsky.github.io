@@ -27,10 +27,13 @@ const Experience = () => {
     const squintTitle = "Software Engineer Intern | Squint AI, San Francisco";
     const squintSummary = `I worked full-stack to build a procedure management system and role-based access controls.
         I also conceptualized and prototyped a solution using 3D reconstruction to enable factory workers to train remotely.`;
-
+    
+    const tavilyTitle = "Forware Deployed Engineer | Tavily, New York City";
+    const tavilySummary = `I help customers build  production-grade agents. Internally, I also do applied AI engineering - recently building our deep research agent and shipping it to tens of thousands of enterprise users.`;
 
     return (
         <Stack direction="column" spacing={0} justifyItems='center' justifyContent={'center'} alignItems={'center'} style={{ marginTop: '2vh', marginBottom: '35px' }}>
+            <ExperienceButton title={tavilyTitle} summary={tavilySummary} />
             <ExperienceButton title={squintTitle} summary={squintSummary} />
             <ExperienceButton title={pccTitle} summary={pccSummary} />
             <ExperienceButton title={gmTitle} summary={gmSummary} />
