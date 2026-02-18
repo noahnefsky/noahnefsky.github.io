@@ -7,19 +7,19 @@ const AboutMe = () => {
   const renderEducationInfo = () => (
     <>
       <div style={tabStyle}>
-        <b>Education</b>: Honours Bachelor's Computer Science at the University of Waterloo,
+        <b>Education</b>: Honours Bachelor's Computer Science at the University of Waterloo
       </div>
       <div style={tabStyle}>
-        <b>Minor</b>: Economics,
+        <b>Minor</b>: Economics
       </div>
       <div style={tabStyle}>
-        <b>Passions</b>: ['Making AI useful, Science'],
+        <b>Passions</b>: ['Making AI useful', 'Science']
       </div>
       <div style={tabStyle}>
-        <b>Sports</b>: ['Baseball, hockey, basketball'],
+        <b>Sports</b>: ['Baseball', 'hockey', 'basketball'],
       </div>
       <div style={tabStyle}>
-        <b>Other interests</b>: ['Fitness, sports, finance, food']
+        <b>Other interests</b>: ['Fitness', 'sports', 'finance', 'food']
       </div>
     </>
   );

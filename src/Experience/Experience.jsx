@@ -29,7 +29,7 @@ const Experience = () => {
         I also conceptualized and prototyped a solution using 3D reconstruction to enable factory workers to train remotely.`;
     
     const tavilyTitle = "Forware Deployed Engineer | Tavily, New York City";
-    const tavilySummary = `I help customers build  production-grade agents. Internally, I also do applied AI engineering - recently building our deep research agent and shipping it to tens of thousands of enterprise users.`;
+    const tavilySummary = `I help customers build  production-grade agents. I also built the Tavily Research API - shipping it to tens of thousands of enterprise users.`;
 
     return (
         <Stack direction="column" spacing={0} justifyItems='center' justifyContent={'center'} alignItems={'center'} style={{ marginTop: '2vh', marginBottom: '35px' }}>
