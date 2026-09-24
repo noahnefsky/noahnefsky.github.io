@@ -3,7 +3,7 @@ import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
 import { CplusplusOriginal, PythonOriginal, ReactOriginal, TypescriptOriginal, PytorchOriginal, NextjsOriginal, NodejsOriginal, FastapiOriginal } from 'devicons-react';
 import React from 'react';
-import { FaAws, FaBrain, FaPlug, FaProjectDiagram, FaRobot, FaSearch, FaServer, FaTools } from 'react-icons/fa';
+import { FaAws, FaBrain, FaClipboardCheck, FaCogs, FaProjectDiagram, FaRobot, FaSearch, FaServer, FaTools } from 'react-icons/fa';
 import { GoGear } from 'react-icons/go';
 import { PiFileSql } from "react-icons/pi";
 import { useStyles } from '../Skills/SkillsStyles';
@@ -86,7 +86,8 @@ const Skills = () => {
                                 <Stack direction={mobile ? 'column' : "row"} spacing={3}>
                                     <Chip className={classes.chipFont} icon={<PytorchOriginal />} label="PyTorch" variant="outlined" />
                                     <Chip className={classes.chipFont} icon={<FaTools />} label="Langsmith" variant="outlined" />
-                                    <Chip className={classes.chipFont} icon={<FaPlug />} label="MCP" variant="outlined" />
+                                    <Chip className={classes.chipFont} icon={<FaCogs />} label="Harness Building" variant="outlined" />
+                                    <Chip className={classes.chipFont} icon={<FaClipboardCheck />} label="Agentic Evaluations" variant="outlined" />
                                 </Stack>
                             </Stack>
                         </Stack>
